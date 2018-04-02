@@ -1,5 +1,5 @@
 body{
- 
+  background: linear-gradient(#9C9993, orange)
 }
 .App {
   text-align: center;
@@ -10,6 +10,7 @@ body{
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  box-shadow: 1px 2px 2px gray;
 }
 
 .App-logo {

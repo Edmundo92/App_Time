@@ -38,8 +38,7 @@
     width: 752px;
 }
 
-ul{
-    list-style: none;
+.ul-clima_day{
     display: flex;
     width: 100%;
 }
@@ -76,4 +75,8 @@ ul{
 }
 .box_graus{
     margin-top: 10px;
+}
+
+.active{
+    background-color: #CCAA6A;
 }

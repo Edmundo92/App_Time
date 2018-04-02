@@ -6,7 +6,7 @@ class ShowDays extends Component {
     render() {
         return (
             <div className='content-show_days'>
-                <ul>
+                <ul className="ul-clima_day">
                     <Day />
                     <Day />
                     <Day />

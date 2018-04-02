@@ -4,4 +4,50 @@
     background: green;
     position: absolute;
     top: 0;
+    background-image: url(http://www.qualviagem.com.br/wp-content/uploads/2016/06/iStock_37452668_SMALL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list_menu{
+    height: 40px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.menu-item{
+    width: 220px;
+    text-align: right;
+    border-bottom: 8px solid transparent;
+}
+a{
+    color: white;
+}
+.menu-item:nth-child(3){
+    border-color: skyblue;
+}
+.menu-item:nth-child(2){
+    border-color: steelblue;
+}
+.menu-item:nth-child(1){
+    border-color: orange;
+}
+
+.title{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    font-weight: 150;
+}
+
+.inf_map{
+    display: inline;
+    background: lightgreen;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    padding: 7px 40px 7px 15px;
+    font-size: 1.4em;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
