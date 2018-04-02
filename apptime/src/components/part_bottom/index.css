@@ -1,0 +1,79 @@
+.bottom{
+    width: 100%;
+    height: 210px;
+    background: #9C9993;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+
+/* SHOW-TIME */
+.content-show-time{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-time{
+    display: flex;
+    color: white;
+    font-weight: 150;
+}
+.box-graus_day{
+    margin-right: 50px;
+}
+.num_graus{
+    font-size: 7.4em;
+}
+.day{
+    padding: 4px 18px;
+    border-radius: 13px;
+    background-color: #5F6264;
+}
+
+/* SHOW-DAYS */
+.content-show_days{
+    width: 752px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.clima_day span{
+    display: block;
+}
+.clima_day{
+    height: 588px;
+}
+.box-clima_day{
+    height: 688px;
+    width: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #5F6264;
+    color: white;
+}
+/* .clima_day{
+    height: 688px;
+    width: 126px;
+    border-left: 1px solid #5F6264;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.box_day{
+    margin: auto;
+    width: 55px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #5F6264;
+}
+.box_graus{
+    margin-top: 10px;
+}
