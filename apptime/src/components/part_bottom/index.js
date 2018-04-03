@@ -8,7 +8,7 @@ class PartBottom extends Component {
     render() {
         return (
             <div className='bottom'>
-                <ShowTime />
+                <ShowTime graus="80" img="rain_day_night@2x.png"/>
                 <ShowDays />
             </div>
         );

@@ -38,16 +38,26 @@ a{
     top: 8%;
     left: 5%;
     font-weight: 150;
+    color: white;
 }
 
 .inf_map{
+    height: 39px;
+    width: 276.97px;
     display: inline;
-    background: lightgreen;
+    background: #403D3B;
     position: absolute;
     bottom: 20%;
     right: 0;
     padding: 7px 40px 7px 15px;
-    font-size: 1.4em;
+    font-size: 1em;
+    font-weight: 150;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    color: white;
+    padding-top: 11px;
+}
+
+.title_decoration{
+    color: #403D3B;
 }

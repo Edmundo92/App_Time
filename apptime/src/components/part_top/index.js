@@ -7,7 +7,7 @@ class PartTop extends Component {
     render() {
         return (
             <div className='top'>
-                <h1 className="title">Buch|arest, RO</h1>
+                <h1 className="title">Buch|<span className="title_decoration">arest, RO</span></h1>
                 <div className="box_location">
                     <img src="" />
                     <span className="location"></span>
